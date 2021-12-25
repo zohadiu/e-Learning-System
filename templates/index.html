@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<div class="container-fluid my-1 px-0" >
+  <div class="container-fluid px-0 mb-3">
+    <img src="/static/img/education_7.webp "style="height:400px;" class="d-block w-100" alt="...">
+    <h3 style="position:absolute;top:260px;color:white;left:60px;">Welcome to E-Learning System</h3>
+    <p style="position:absolute;top:180px;color:wheat;left:48px;font-style: italic;">"The more that you read, the more things you will know.<br> The more that you learn, the more places you’ll go."</p>
+    <p style="position:absolute;color:black;top:235px;color:white;left:390px;font-size:15px;" >- Dr. Seuss</p>
+    <p style="position:absolute;color:black;top:295px;color:red;left:120px;font-size:20px;font-style: bold;" >Trust.....</p>
+    <p style="position:absolute;color:black;top:330px;color:black;left:165px;font-size:20px;font-style: bold;" >Hardwork.....</p>
+    <p style="position:absolute;color:black;top:370px;color:gray;left:260px;font-size:20px;font-style: bold;" >Success......</p>
+    <a href="/about/" class="btn btn-primary rounded-0 px-4"style="position: absolute;
+    left: 100px;
+    top: 450px;" >For more click here</a>
+    </div>
+          </div>
+          {% comment %} <div class="carousel-item">
+            <img src="/static/img/education_5.png "style="height:500px;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" style=" background:white; border-radius:30px;color:black;font-size:20px;">
+              <h5>Learn with the easy way</h5>
+              <p>Keep trust on us.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/static/img/education_7.webp"style="height:500px;" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color:black;">We are arranaging this to gift you all a bright world.</h5>
+              <p  style=" background:white; border-radius:30px;color:Red;font-size:20px;">TRUST|HARDWORK|PROGRESS|SUCCESS</p>
+            </div> {% endcomment %}
+          </div>
+        </div>
+        {% comment %} <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> {% endcomment %}
+      </div>
+</div>
+<div class="container my-2">
+  <h1 class="my-4 text-center" >Why e-learn?</h1>
+
+<p>E-Learning has completely transformed the way in which learning is imparted to students. Unlike traditional chalk and board method of teaching, eLearning makes learning simpler, easier, and more effective.</p>
+<P>E-learning is still quite new to the Bangladeshi educational scene but with more and more people connected to the internet, it is quickly becoming a crucial part of learning. However, the introduction of e-learning would mean many would have to change their conventional ways of learning.</P>
+</div>
+<div class="container my-15">
+  <h1 class="my-4 text-center"style="color:Red">What we provide-</h1>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      </div>
+      <div>
+        <h2>Sufficient Lecture</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="/registration/" class="btn btn-primary">
+          Go
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+      </div>
+      <div>
+        <h2> Necessary Notes</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="/registration/" class="btn btn-primary">
+          Go
+        </a>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+      </div>
+      <div>
+        <h2>Taking quiz</h2>
+        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+        <a href="/registration/" class="btn btn-primary">
+          Go
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block title %}category{% endblock title %}
+
+{% block body %} 
+
+
+  <div class="container my-5 px-0" >
+    <h1 class="my-1 text-center">This subjects are our top subjects and most popular-</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/dsci.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Data Science</b><br>Data science refers to the process of extracting clean information to formulate actionable insights</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">Click views for details</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/compiler2.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Compiler Design</b><br><br>Compiler design principles provide an in-depth view of translation and optimization process. <br></p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">Click views for details</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/ai.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Artificial intelligence</b><br>Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals including humans</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">Click views for details</small>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/ict.jpg" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Information and Communications Technology</b><br>ICT, or information and communications technology (or technologies), is the infrastructure and components that enable modern computing.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">Click views for details</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="/static/img/dstruc.png" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><b>Data structure</b> <br>In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification</p>
+            <div class="d-flex justify-content-between align-items-center"> 
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+              <small class="text-muted">Click views for details</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      
+      
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+         
+          <p class="lead text-muted">This is the top categories of us. For full access of these courses and for others you need to go to the course section.</p>
+          <p>
+            <a href="/course" class="btn btn-primary my-2">go to courses</a>
+            
+          </p>
+        </div>
+      </div>
+    </div>skip
+  {% endblock body %}

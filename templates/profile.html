@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>welcome {{name}}</h1>
+<p>this is your profile</p>
+{% if messages %}
+{%for message in messages%}
+<small {% if message.tags %} class="{{message.tags}}" {% endif %}>{{message}}</small>
+{% endfor %}
+{% endif %}
+<a href="/logout/" class="btn btn-primary rounded-0 px-4">Logout</a>
+
+
+</body>
+</html>
